@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Sulphur+Point:wght@300&display=swap');
+
+body, html{
+    height: 100%;
+  }
+  
+  body{
+    background-color: #1b1919;
+    background-image: url(../img/pattern.png);
+  }
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.left{
+    float: left;
+    margin-left: 5px;
+}
+
+.right{
+    float: right;
+    margin-right:5px;
+}
+
+.pole{
+    height: 90px;
+    width: 33px;
+    padding: 2px;
+    margin-top: 3px;
+}
+
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    display: flex; 
+    height: auto;
+}
+
+#id{
+    margin-top: 40px;
+}
+
+.login{
+    height: 100px;
+    width: 69px;
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+
+.button{
+    padding: 5px;
+    padding-right: 7px;
+    padding-left:7px;
+    border-radius: 8px;
+    transition: transform .2s;
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: bold;
+    max-width: 100%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+
+.button:hover{
+    background-color: #880016;
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+
+.menu{
+    width: 100%;
+    height: 35px;
+    background-color: #880016;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration-color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration-color: whitesmoke;
+    text-decoration: none;
+    color: white
+}
+.elements{
+    display: flexbox;
+    font-weight: bold;
+    font-family: 'Sulphur Point', sans-serif;
+    transition: transform .2s;
+    color: whitesmoke;
+    margin-top: 4px;
+    text-decoration-color: whitesmoke;
+    text-decoration: none;
+    color: white
+}
+
+.elements:hover{
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+
+#boasvindas{
+    color: cornsilk;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+}
+
+.agenda{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(240, 88, 68);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#242424;
+    border-radius: 30px;
+}
+
+label{
+    font-size: 25px;
+    color: cornsilk;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.campos{
+    font-size: 25px;
+    font-family: 'Sulphur Point', sans-serif;
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.slAgenda{
+    font-size: 25px;
+    background-color: rgb(68, 68, 68);
+    color: cornsilk;
+    margin-top: 5px;
+}
+
+.cxPai{
+    display: flex;
+}
+
+.cxFilha{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(240, 88, 68);
+    font-size: larger;
+    margin-left: 10px;
+}
+
+.h1Titulo{
+    font-family:'Berkshire Swash', cursive;
+    font-size: 50px;
+    color: rgb(240, 88, 68);
+    text-align: center;
+}
+
+.subtitulo{
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 25px;
+    color: tomato;
+}
+
+.voltar{
+    float: left;
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+}
+
+.centralizar{
+        width: fit-content;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    font-family: Sulphur Point;
+
+}
+
+.userpic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.usuarioPai{
+    width: 1000px;
+    opacity: initial;
+    display: flex;
+    justify-content: space-around;
+}
+
+.usuarioFilho{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: cornsilk;
+}
+
+.informacoes{
+    width: 100%;
+    opacity: 70%;
+    background-color: brown;
+}
+
+.info{
+    color: white;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+

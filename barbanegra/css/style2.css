@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Sulphur+Point:wght@300&display=swap');
+
+body, html{
+    height: 100%;
+  }
+
+body{
+    background-color: #1b1919;
+    background-image: url(../img/pattern.png);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+.pai{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.caveira{
+    width: 50%;
+    height: 100vh;
+    background-image: url(../img/fundologin.png);
+    background-size: cover;
+}
+
+.login{
+    width: 50%;
+    height: 100vh;
+    align-self: center;
+}
+
+.loginTitle{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Berkshire Swash', cursive, sans-serif;
+    color: cornsilk;
+}
+
+label{
+    color: cornsilk;
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: bold;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 70px;
+}
+
+.labels{
+    font-size: 40px;
+}
+
+#txtNome , #txtSenha{
+    font-size: 30px;
+    font-family: 'Sulphur Point', sans-serif;
+    border-radius: 10px;
+    background-color: grey;
+    color: honeydew;
+    padding: 5px;
+}
+
+.botao{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Sulphur Point', sans-serif;
+    transition: transform .2s;
+}
+
+.botao:hover{
+    background-color: #880016;
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+
+.paiIpt{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    }
+
+.filhoIpt{
+    display: inline-block;
+    margin-top: 15px ;
+}
